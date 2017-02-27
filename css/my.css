@@ -1,0 +1,570 @@
+@media screen and (min-width:200px) {
+    h4.company_name    {
+        font-size: 12px;
+    }
+    .title_name{
+        font-size: 12px;
+    }
+    .footer_text{
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (min-width:500px) {
+    h4.company_name{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:900px) {
+    h4.company_name{
+        font-size: 18px;
+    }
+    .title_name{
+        font-size: 18px;
+    }
+    .footer_text{
+        font-size: 16px;
+    }
+}
+
+html, body{
+
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   position: relative;
+}
+
+h2{
+	font-size:40px;
+}
+
+.data6{
+    font-size: 20px;
+}
+
+.mybutton{
+
+	margin: 20px;
+}
+
+h2.myteamtitle{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#wrapper{
+
+	position: relative;
+    min-height: 100%;
+    padding: 0 0 0 0;
+    height:auto !important; /*IE6対策*/
+    height: 100%; /*IE6対策*/
+}
+
+.container{
+        height: 100%;
+        margin:auto 0;
+        width: 100%;
+        padding: 0 0 0 0;
+}
+
+.headerimage{
+    margin-bottom: 40px;
+}
+
+.headerlogo{
+    width: 60%;
+}
+
+.judgebutton{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.teamname{
+    font-size: 12px;
+    font-family: "Open Sans","Helvetica Neue";
+    font-weight: bold;
+}
+
+.judgename-form{
+    text-align: center;
+}
+
+.themename-form{
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+
+.teamname-form{
+    color: #910818;
+    margin-bottom: 20px;
+    margin-top:2px;
+}
+
+.scoreformrow{
+    margin-bottom: 20px;
+}
+
+.theme{
+    background: #d70b24;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    vertical-align: middle;
+    /*
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    */
+}
+
+.themeselected{
+    background: #910818;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    vertical-align: middle;
+    /*
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    */
+}
+
+.row{
+        height: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+}
+
+#contents{
+    /*margin:0 0 0 30px;*/
+    padding-bottom: 4em; /* フッタの高さ分だけ余白を設ける */
+}
+
+#myheader{
+
+    width: 100%;
+    background: #d70b24;
+    color: #fff;
+    padding: 20px 30px;
+
+}
+
+#contents2{
+    padding-bottom: 4em; /* フッタの高さ分だけ余白を設ける */
+	margin:20px 20px;
+}
+
+.thanks{
+	font-size:36px;
+}
+
+#submit{
+    margin: 0 0 20px 0;
+	width:100px;
+}
+
+a{
+	text-align:center;
+}
+
+
+body{
+	/*overflow-x: hidden;*/
+}
+
+.myfooter{
+
+	position: absolute;       /* 絶対位置指定することを定義 */
+	bottom: 0px;
+	width: 100%;
+	background: #d70b24;
+	color: #fff;
+	padding: 20px 50px;
+	height: 4em;
+    margin-top: 20px;
+}
+
+.myfooter_nopic{
+
+    position: absolute;       /* 絶対位置指定することを定義 */
+    bottom: 0px;
+    width: 100%;
+    background: #d70b24;
+    color: #fff;
+    padding: 20px 50px;
+    height: 3em;
+    margin-top: 20px;
+}
+
+
+table.ranking{
+	*border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0;
+}
+
+table.ranking th:first-child {
+    -moz-border-radius: 6px 0 0 0;
+    -webkit-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0;
+}
+
+table.ranking th:last-child {
+    -moz-border-radius: 0 6px 0 0;
+    -webkit-border-radius: 0 6px 0 0;
+    border-radius: 0 6px 0 0;
+}
+
+table.bordered tr:hover
+{
+    background: #fbf8e9;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+
+table.zebra tbody tr:nth-child(even) {
+    background: #f5f5f5;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+}
+
+table.brwsr2 {
+    margin: 20px auto;
+    width: 90%;
+    border: none;
+    border-top: solid 1px #666;
+    border-bottom: solid 1px #666;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    background: #f5f5f5;
+}
+
+table.brwsr2 th {
+    vertical-align: middle;
+    height: 53px;
+    width: 124px;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+table.brwsr2 th.notlast {
+    vertical-align: middle;
+    height: 53px;
+    width: 140px;
+    border-right: solid 1px #666;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    /*word-wrap:break-word;*/
+}
+
+table.brwsr2 th.notlast_small {
+    vertical-align: middle;
+    height: 53px;
+    width: 124px;
+    border-right: solid 1px #666;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table.brwsr2 th.last {
+    vertical-align: middle;
+    height: 53px;
+    width: 124px;
+    /*border-right: solid 1px #666;*/
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 25px;
+    font-weight: bold;
+    /*word-wrap:break-word;*/
+}
+
+table.brwsr2 th.nextrow {
+    vertical-align: middle;
+    height: 53px;
+    width: 124px;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+table.brwsr2 td.data {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    /*word-wrap:break-word;*/
+}
+
+table.brwsr2 td.data_comment {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    /*word-wrap:break-word;*/
+}
+
+table.brwsr2 td.data_small {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    word-wrap:break-word;
+}
+
+table.brwsr2 td.data1 {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*
+table.brwsr2 td.data2 {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+*/
+
+table.brwsr2 td.data3 {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+table.brwsr2 td.data4 {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+table.brwsr2 td.firstdata {
+    padding: 0;
+    margin: 0;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+table.brwsr2 td.rankindata {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 40px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    /*word-wrap:break-word;*/
+}
+
+table.brwsr2 td.lastdata {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 60px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    font-weight: bold;
+    word-wrap:break-word;
+}
+
+table.brwsr2 td.data2 {
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    width: 100px;
+    border: none;
+    color: #666;
+    font-size: 100px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+table.brwsr2 td:fst-child {
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+}
+
+table.brwsr2 td.bar {
+    height: 1px;
+    width: 100%;
+    border-top: solid 1px #34495e;
+}
+
+
+
+table.type07 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border: 1px solid #ccc;
+}
+table.type07 thead {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #04162e;
+}
+table.type07 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #fff;
+}
+table.type07 tbody th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #efefef;
+    text-align: center;
+}
+
+table.type07 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+
+/*
+@media (min-width:0px) {
+  #wrapper{
+	margin:0px 0px;
+	font-size:14px;
+}
+}
+
+@media (min-width: 400px) {
+  #wrapper{
+	margin:0px 0px;
+}
+}
+
+@media (min-width: 768px) {
+  #wrapper{
+	margin:20px 30px;
+}
+}
+
+@media (min-width: 992px) {
+#wrapper{
+	margin:20px 20px;
+}
+}
+
+@media (min-width: 1200px) {
+  #wrapper{
+	margin:20px 100px;
+}
+}
+*/
+
+/* CSS Document */
