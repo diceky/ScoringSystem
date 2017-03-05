@@ -69,7 +69,7 @@ function hideToggle(hidearea) {
     <div id="wrapper" class="col-sm-12 col-xs-12">
 
     <div class="col-md-6 col-md-offset-4">
-        <img src="../image/header_logo_small.png" class="img-responsive headerlogo" alt="MONO COTO INNOVATION 2016">
+        <img src="../image/header_logo.png" class="img-responsive headerlogo" alt="MONO COTO INNOVATION 2016">
     </div><!--col-md-6-->
 
     <div id="contents" class="col-sm-12 col-xs-12">
